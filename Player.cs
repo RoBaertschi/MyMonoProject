@@ -10,9 +10,9 @@ public class Player : Area2D
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		Logging.log("Hello World!");
-
-		Logging.info("Info");
+		Logging.info("Hi");
+		Logging.warn("Attention");
+		Logging.error("Wrong");
 	}
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
